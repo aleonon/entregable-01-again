@@ -1,0 +1,24 @@
+{
+  "name": "biorobots-generator",
+  "version": "1.0.0",
+  "description": "Generador de Biorobots - Máquina de Intenciones Tipadas",
+  "type": "module",
+  "main": "version-javascript/src/index.js",
+  "scripts": {
+    "start": "node version-javascript/src/index.js",
+    "dev": "node --watch version-javascript/src/index.js",
+    "build": "tsc",
+    "start:ts": "node dist/index.js",
+    "dev:ts": "tsc --watch"
+  },
+  "keywords": [
+    "biorobots",
+    "typed-intentions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "typescript": "^7.0.2"
+  }
+}
