@@ -3,7 +3,8 @@ import {
     crearContadorDiagnosticos,
     filtrarPorEstado,
     calcularEnergiaPromedio,
-    combinarBioRobots
+    combinarBioRobots,
+    cargarBioRobots
 } from "./generador.js";
 
 async function main() {
